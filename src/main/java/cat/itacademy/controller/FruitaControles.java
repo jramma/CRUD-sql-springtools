@@ -14,7 +14,7 @@ public class FruitaControles {
 	@Autowired
 	private FruitaService servicio;
 	
-	@GetMapping({"/fruita/getAll","/frutas"})
+	@GetMapping({"/fruita/getAll","/frutas","/getAll"})
 	public String listarFrutas(Model model) {
 		model.addAttribute("fruites", servicio.listarFruites());
 		return "index"; // te devueve el html
