@@ -12,8 +12,8 @@
  
 	 <nav class="navbar navbar-expand-lg bg-light">
 	  <div class="container-fluid">
-	    <a class="navbar-brand" href="#">Fruites</a> 
-	          <a class="nav-link" href="#">Añadir Fruita</a>
+	    <a class="navbar-brand" href="/fruites">Fruites</a> 
+	          
 	  </div>
 	</nav>
  <br>
@@ -27,9 +27,14 @@
 	 						<label>Nom: </label>
 	 						<input type="text" name="nom" th:field="*{nom}" class="form-control" placeholder= "Escriu el nom... " > 						
 	 					</div>
+	 					<br>
 	 					<div class= "form-group">
 	 						<label>Pes en kg: </label>
-	 						<input type="number" name="quantitatkg" th:field="*{quantitatKG}" class="form-control"  > 						
+	 						<input type="number" name="quantitatkg" th:field="*{QuatitatQuilos}" class="form-control"  > 						
+	 					</div>
+	 					<br>
+	 					<div class= "box-footer">
+	 						<button class= "btn btn-success"> Guardar </button>		
 	 					</div>
  					</form>
  				</div>	
