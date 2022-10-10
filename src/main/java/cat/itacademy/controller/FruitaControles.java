@@ -23,7 +23,7 @@ public class FruitaControles {
 		return "index"; // te devueve el html
 	}
 
-	@GetMapping({ "/fruita/add", "/update" })
+	@GetMapping({ "/fruita/add" })
 	public String editarFruta(Model model) {
 		Fruita fruita = new Fruita();
 		model.addAttribute("fruita", fruita);
@@ -40,7 +40,7 @@ public class FruitaControles {
 	public String mostrarFormularioEdicion(@PathVariable int id, Model model) {
 		model.addAttribute("fruita", servicio.obtenerFruitaPorId(id));
 
-		return "editar_estudiante";
+		return "editar";
 
 	}
 
@@ -66,3 +66,13 @@ public class FruitaControles {
 		return "index";
 	}
 }
+
+//http://localhost:8080/fruita/add
+//
+//http://localhost:8080/fruita/update
+//
+//http://localhost:8080/fruita/delete/{id}
+//
+//http://localhost:8080/fruita/getOne/{id}
+//
+//http://localhost:8080/fruita/getAll

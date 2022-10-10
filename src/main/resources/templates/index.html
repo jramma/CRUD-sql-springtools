@@ -31,14 +31,20 @@
 			      <th >#</th>
 			      <th >Noms</th>
 			      <th >Pes en Kg</th>
+			      <th>        </th>
 			    </tr>
 			  </thead>
 			  <tbody>
 			    <tr th:each="fruita :${fruites}">
 			    	<td th:text="${fruita.id}">Id</td>
 		 			<td th:text="${fruita.nom}">Nom</td>
-		 			<td th:text="${fruita.quatitatQuilos}">QuatitatQuilos</td>
-			    </tr>			   
+		 			<td th:text="${fruita.quatitatQuilos}">QuatitatQuilos</td>			   
+			    	<td>
+						<a th:href= "@{/fruita/update/{id}(id=${fruita.id})}" class= "btn btn-info"> Update </a>
+						<a th:href= "@{/fruita/delete/{id}(id=${fruita.id})}" class= "btn btn-danger"> Eliminar </a>
+					</td>
+			    </tr>
+			    			   
 			  </tbody>
 		</table>
 	 </div>
