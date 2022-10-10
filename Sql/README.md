@@ -1,19 +1,11 @@
-# CRUD-sql-springtools
+# Sql dependency
 
-http://localhost:8080/fruita/add
-![image](https://user-images.githubusercontent.com/107991714/194381574-99ee9721-6cc5-49b8-ad34-a46d6b8b5944.png)
+La configuracion para que nos cree la tabla y use la base de datos que tenemos creada en mySql es la siguiente (en application.properties):
 
-http://localhost:8080/fruita/update
+> Password y user son datos que varian según lo que tengas configurado
 
+<img width="657" alt="Captura de Pantalla 2022-10-10 a las 10 18 02" src="https://user-images.githubusercontent.com/107991714/194824562-09fe5233-1b9f-4994-92aa-9cee707bbe8a.png">
 
-http://localhost:8080/fruita/getAll
-![image](https://user-images.githubusercontent.com/107991714/194380393-b585f6cd-079c-4366-a1c8-815c5772be6a.png)
+En myWorkbench se vería lo siguiente:
 
-http://localhost:8080/fruita/delete/{id}
-> delete te redirecciona a /fruites
-
-
-
-
-
-
+<img width="327" alt="Captura de Pantalla 2022-10-10 a las 10 19 58" src="https://user-images.githubusercontent.com/107991714/194824586-499b4915-b078-4c3a-bf9a-fa3e21e85645.png">
