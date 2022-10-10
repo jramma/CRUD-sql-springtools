@@ -8,6 +8,7 @@
 
 En myWorkbench se vería lo siguiente:
 (he añadido unos datos desde el main)
+
 <img width="327" alt="Captura de Pantalla 2022-10-10 a las 10 19 58" src="https://user-images.githubusercontent.com/107991714/194824586-499b4915-b078-4c3a-bf9a-fa3e21e85645.png">
 
 2. Una vez se cree la tabla es importante cambiar el valor "create" a "none" para que no nos duplique las tablas:
