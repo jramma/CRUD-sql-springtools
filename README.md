@@ -2,7 +2,7 @@
 
 Dependencia sql >>> en la carpeta sql
 
-> Esto son capturas de lo que hacen los enlaces:
+> Esto son capturas de lo que hacen los enlaces (los html están en templates):
 
 http://localhost:8080/fruita/add
 ![image](https://user-images.githubusercontent.com/107991714/194381574-99ee9721-6cc5-49b8-ad34-a46d6b8b5944.png)
